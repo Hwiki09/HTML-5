@@ -117,11 +117,8 @@ oubaye {
   
   aside h3 {
       background: #D1D1D1;
-      padding: 10px
-  }
-
-  aside section ul {
-    margin-top: 10px;
+      padding: 10px;
+      margin-bottom: 10px;
   }
 
   aside section ul li {
