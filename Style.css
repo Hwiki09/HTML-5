@@ -1,0 +1,141 @@
+
+  /* Basics ~ 01 */
+oubaye {
+  background-color: #DDD;
+  color: #000
+}
+
+.ddd {
+  background-color: #00F;
+  color: #FFF
+}
+
+.clear {
+  clear: both;
+}
+
+  /* Basics ~ 02 */
+
+/* Start Global */
+
+  * {
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+/* End Global */
+
+
+/* Start Header */
+
+  .main {
+    background-color: #333;
+    color: #DDD;
+    padding: 20px;
+    text-align: center;
+  }
+
+  nav {
+    background: #DDD;
+  }
+
+  nav ul {
+    padding: 20px;
+    text-align: center;
+  }
+
+  nav ul li {
+    display: inline-block;
+  }
+
+  nav ul li:after {
+    content: " |";
+  }
+
+  nav ul li:last-child:after {
+    content: "";
+  }
+
+/* Start Header */
+
+/* Start Main*/
+  main {
+    background-color: #EEE;
+    padding: 20px
+  }
+
+  main p {
+    text-align: center;
+  }
+
+  main p span {
+    color: #666;
+    font-weight: bold 
+  }
+/* End Main */
+
+/* Start Articles */
+  .post {
+    width: 70%;
+    float: left;
+  }
+ .post article {
+    background: #F6F6F6;
+    border: 1px Solid #CCC;
+    margin: 20px;
+  }
+
+ .post article header {
+    background-color: #E2E2E2;
+    padding: 10px;
+  }
+
+ .post article section {
+    padding: 10px;
+  }
+
+/* End Articles */
+
+/* Start Aside*/
+  aside {
+    float: right;
+    width: 30%;
+  }
+
+  aside section {
+    background: #EEE;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #CCC;
+    margin-bottom: 20px;
+  }
+  
+  aside h3 {
+      background: #D1D1D1;
+      padding: 10px
+  }
+
+  aside section ul {
+    margin-top: 10px;
+  }
+
+  aside section ul li {
+    line-height: 2
+  }
+/* End Aside*/
+
+/* Start Footer */
+
+  footer {
+    background: #333;
+    padding: 10px;
+    text-align: center;
+    color: #DDD;
+  }
+
+/* End Footer */
