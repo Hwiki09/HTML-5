@@ -131,6 +131,15 @@
             <input type="submit" value="choose">
           </form>
         </section>
+
+        <section>
+          <h3>Calculate Your Age in Days</h3>
+          <form oninput="result.value =parseInt(Days.value) * parseInt(age.value) + ' Days'" class="Calculate-age">
+            <input type="text" name="Days">
+            <input type="hidden" name="age" value="365">
+            <output name="result"></output>
+          </form>
+        </section>
       </aside>
     <!-- End Sidebar -->
     <div class="clear"></div>
