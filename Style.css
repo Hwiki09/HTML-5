@@ -108,6 +108,13 @@ oubaye {
     margin: 10px 0
   } 
 
+  .post article section dialog {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    padding: 20px
+  }
+
 /* End Articles */
 
 /* Start Aside*/
