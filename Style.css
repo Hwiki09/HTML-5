@@ -77,6 +77,11 @@ oubaye {
     color: #666;
     font-weight: bold 
   }
+
+  main p mark {
+    background-color: #00F;
+    color: white
+  }
 /* End Main */
 
 /* Start Articles */
@@ -98,6 +103,10 @@ oubaye {
  .post article section {
     padding: 10px;
   }
+
+  .post article section details {
+    margin: 10px 0
+  } 
 
 /* End Articles */
 
