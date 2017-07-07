@@ -137,10 +137,11 @@
           </header>
           <section>
             <p>Form Attributes</p>
-            <form novalidate>
+            <form action="process.php" method="get" enctype="multipart/form-data" novalidate>
               <input type="text" name="username" autofocus="on">
               <input type="email" name="Mail" autocomplete="off">
-              <input type="submit" value="Send">
+              <input type="submit" value="Default Submit" >
+              <input type="submit" value="Other Submit" formaction="other.php" formmethod="post">
             </form>
           </section>
         </article>
