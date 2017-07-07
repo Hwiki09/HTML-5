@@ -115,6 +115,10 @@ oubaye {
     padding: 20px
   }
 
+  .post article section .html5 input {
+    display: block;
+    margin-bottom: 10px
+  }
 /* End Articles */
 
 /* Start Aside*/
