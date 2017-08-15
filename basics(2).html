@@ -137,8 +137,10 @@
           </header>
           <section>
             <p>Form Attributes</p>
-            <form action="process.php" method="get" enctype="multipart/form-data" novalidate>
+            <form class="html5" action="process.php" method="get" enctype="multipart/form-data" novalidate>
+              <label>Username</label>
               <input type="text" name="username" autofocus="on">
+              <label>Email</label>
               <input type="email" name="Mail" autocomplete="off">
               <input type="submit" value="Default Submit" >
               <input type="submit" value="Other Submit" formaction="other.php" formmethod="post">
