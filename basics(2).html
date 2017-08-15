@@ -139,16 +139,17 @@
             <p>Form Attributes</p>
             <form id="mainForm" class="html5" action="process.php" method="get" enctype="multipart/form-data">
               <label>Username</label>
-              <input type="text" name="username" autofocus="on">
+              <input type="text" name="username" autofocus="on" placeholder="Ex: Hwiki_09">
               <label>Email</label>
-              <input type="email" name="Mail" autocomplete="off">
+              <input type="email" name="Mail" autocomplete="off" multiple>
+              <input type="file" multiple >
               <input type="submit" value="Default Submit" >
               <input type="submit" value="Other Submit" formaction="other.php" formmethod="post">
               <input type="submit" formnovalidate value="Submit Withoud Validation">              
               <input type="submit" formnovalidate formtarget="_blank" value="Submit in New Window">
             </form>
             <label>Nickname:</label>
-            <input type="text" name="nick-name" form="mainForm">
+            <input type="text" name="nick-name" form="mainForm" required>
           </section>
         </article>
 
